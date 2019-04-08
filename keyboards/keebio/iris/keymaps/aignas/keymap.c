@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
      LSFT,SCLN, Q  , J  , K  , X  ,                B  , M  , W  , V  , Z  ,RSFT,
   //|----+----+----+--+-+----+----+----.    ,----|----+----+----+----+----+----|
-     ESC ,LGUI,GRV ,RASE,LBRC,LALT,BSPC,     SPC ,RALT,RBRC,RASE,BSLS,RGUI,ENT ,
+     ESC ,LGUI,GRV ,RASE,    ,LALT,BSPC,     SPC ,RALT,BSLS,RASE,LBRC,RBRC,ENT ,
   //`----+----+----+----+----+----+----/    \----+----+----+----+----+----+----'
                        LOWR,LCTL,BSPC,         SPC ,RCTL,LOWR
   //                  `----+----+----'        `----+----+----'
@@ -43,7 +43,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
          ,EXLM,LABK,EQL ,RABK,LCBR,               RCBR, 4  , 5  , 6  ,COMM,    ,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-         ,    ,    ,PIPE,    ,LBRC,    ,         ,RBRC, 1  , 2  , 3  ,RALT,RCTL,
+         ,    ,    ,PIPE,    ,    ,    ,         ,    , 1  , 2  , 3  ,RALT,RCTL,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
                            ,    ,    ,             ,    ,
   //                  `----+----+----'        `----+----+----'
